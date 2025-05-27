@@ -1,0 +1,35 @@
+*
+{
+    font-family: verdana;
+}
+ul
+{
+    grid-gap: 2em;
+    font-weight: 200;
+}
+.col.rounded-4
+{
+    background-color: white;
+}
+.row.row-cols-1.row-cols-lg-4
+{
+    grid-gap: 1.5em;
+}
+.pricing-switchers .pricing-switcher
+{
+    cursor: pointer;
+    width: 100%;
+    float: left;
+    height: 1rem;
+    line-height: 1rem;
+    position: relative;
+    z-index: 888;
+    transition: .3s ease-in-out;
+    text-transform: uppercase;
+}
+.row.mt-5
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 2em;
+}
